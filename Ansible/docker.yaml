@@ -19,7 +19,7 @@
       community.docker.docker_login:
         registry_url: https://index.docker.io/v1/
         username: shahidalam
-        password: dckr_pat_SdEV1xGaQSBoS1U_7gqWgyxY4Ok
+        password: dckr_pat_Mkyz0C0ij_EL-b5OJ6jLhZeM6Nw
 
     - name: Push image
       command: docker push shahidalam/petstore:latest
